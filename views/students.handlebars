@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>students List</h1>
+    {{#each students}}
+    <div class="card" style="width: 20rem;">
+        <div class="card-body">
+            <h5 class="card-title">Student Name: {{name}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Student phone: {{phone}}</h6>
+            <p class="card-text">Student Course: {{course}}</p>
+            <i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i>
+        </div>
+    </div>
+
+    {{/each}}
+</div>
